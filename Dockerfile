@@ -9,6 +9,4 @@ COPY . .
 
 EXPOSE 8501
 
-ENV STREAMLIT_LOG_LEVEL=debug
-
 CMD ["streamlit", "run", "app.py", "--server.port=8501", "--server.address=0.0.0.0"]
